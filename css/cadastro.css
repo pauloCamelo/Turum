@@ -49,11 +49,13 @@ body {
 .form-control, .form-control:focus, .input-group-text {
 	border-color: #e1e1e1;
 	border-radius: 5%;
-	padding: 15px;
+	padding: 8px;
+	padding-right: 14px;
+	padding-left: 12px;
 }
 .form-control, .btn {        
 	border-radius: 3px;
-	padding: 15px;
+	padding: 8px;
 }
 .signup-form {
 	width: 400px;
@@ -118,14 +120,14 @@ body {
 	width: 15px;
 	font-size: 27px;
 }
-.signup-form .fa-paper-plane {
-	width: 15px;
-	font-size: 22px;
+.signup-form .fa-envelope {
+	width: 17px;
+	font-size: 23px;
 }
 .signup-form .fa-check {
 	color: #fff;
-	left: 18px;
-	top: 22px;
-	font-size: 18px;
+	left: 15px;
+	top: 20px;
+	font-size: 14px;
 	position: absolute;
 }
