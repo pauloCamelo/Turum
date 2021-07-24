@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-#turum {
+body {
+	background-color: #f7f7f7;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#navbar {
+	background-color: #64199c
+}
+
+#turum-logotipo {
    color: white;
    font-weight: bold;
    font-size: 18px;
-}
-
-body {
-    background-color: #f7f7f7;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-lista li{
@@ -17,32 +21,22 @@ body {
     list-style-type: none;
 }
 
-#navbar {
-    background-color: #64199c
+#box-imagem-lateral img{
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
 }
 
-#formulario {
+#container-form {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
-#imagem img{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-
-.login {
-    width: 500px;
-    height: 600px;
-    background-color: #fff;
-}
-
-#box {
+#box-form {
     height: 100vh;
 }
 
-/****************** FORM ********************/
+/********************** FORM ***********************/
 
 .form-control {
 	font-size: 15px;
@@ -141,4 +135,23 @@ button {
 	top: 20px;
 	font-size: 14px;
 	position: absolute;
+}
+
+/* MODAL */
+
+.modal-mensagem img{
+   width: 300px;
+}
+
+.modal-mensagem p{
+   margin-top: 15px;
+   font-size: 30px;
+   color: #373a3b;
+   font-weight: bold;
+
+   text-align: center;
+}
+
+#modal-btn {
+	width: 100%;
 }
