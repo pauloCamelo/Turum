@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#turum {
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-lista li{
+    color: white;
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+#navbar {
+    background-color: #64199c
+}
+
+#formulario {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#imagem img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.login {
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+}
+
+#box {
+    height: 100vh;
+}
+
+/****************** FORM ********************/
+
+.form-control {
+	font-size: 15px;
+}
+.form-control, .form-control:focus, .input-group-text {
+	border-color: #e1e1e1;
+	border-radius: 5%;
+	padding: 8px;
+	padding-right: 14px;
+	padding-left: 12px;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+	padding: 8px;
+}
+.signup-form {
+	width: 400px;
+	margin: 0 auto;	
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	padding: 40px;
+}
+.signup-form h2 {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.signup-form hr {
+	margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form label {
+	font-weight: normal;
+	font-size: 15px;
+}
+.signup-form .form-control {
+	min-height: 38px;
+	box-shadow: none !important;
+}	
+.signup-form .input-group-addon {
+	max-width: 42px;
+	text-align: center;
+}	
+.signup-form .btn, .signup-form .btn:active {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #64199c !important;
+	border: none;
+	min-width: 140px;
+}
+
+button {
+	width: 100%;
+}
+
+#entrarMD {
+	position: absolute;
+	top: 90px;
+	right: 30px;
+}
+
+.signup-form .btn:hover, .signup-form .btn:focus {
+	background: #64199c !important;
+}
+.signup-form a {
+	color: #fff;	
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #64199c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+.signup-form .fa {
+	width: 15px;
+	font-size: 27px;
+}
+.signup-form .fa-envelope {
+	width: 17px;
+	font-size: 23px;
+}
+.signup-form .fa-check {
+	color: #fff;
+	left: 15px;
+	top: 20px;
+	font-size: 14px;
+	position: absolute;
+}
