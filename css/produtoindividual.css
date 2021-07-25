@@ -37,10 +37,9 @@ h2 {
     align-items: center;    
 }
 
-.hahaha {
-    background:  url(/img/havith200.gif) no-repeat center center;
-    background-size: contain;
-    height: 100vh;
+.img-fluid {
+    box-shadow: 10px 10px 0px 0px #212121;
+    margin-bottom: 50px;    
 }
 
 @media (max-width: 576px){
