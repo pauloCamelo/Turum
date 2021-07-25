@@ -5,8 +5,7 @@
 }
 
 #barra {
-  border-left: 2px solid;
-  border-color: azure;
+  box-shadow: -8px 0 0 -6px azure;
 }
 
 div.carousel-inner {
