@@ -1,13 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 #navbar {
-  background-color: #64199c
+  background-color: rgb(0, 0, 0);
 }
+
+#barra {
+  border-left: 2px solid;
+  border-color: azure;
+}
+
+div.carousel-inner {
+  max-height: 40rem;
+}
+
 
 body {
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
-  color:azure
+  font-family: "Montserrat", sans-serif;
+  color: azure;
 }
 
 #carouselExampleIndicators {
@@ -15,10 +25,8 @@ body {
   object-fit: cover;
 }
 
-.col-3{
-  color:aliceblue;
-  background-color:aqua;
-  width: 200px;
-  height: 200px;
-  margin: 20px 30px;
+div#imagens {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10;
 }
