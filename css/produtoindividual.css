@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#navbar {
+	background-color: #64199c
+}
+
+#carouselExampleFade {    
+    width: 30%;
+    margin: 5vh;
+}
+
+#DescricaoBotaoCompra h2{
+    margin: 3rem 0 3rem 0;
+    text-align: center;
+}
+
+#DescricaoBotaoCompra p{
+    margin: 0 0 5rem 0;
+    text-align: center;
+}
+
+#DescricaoBotaoCompra button{
+    background-color: #64199c;
+    margin: 0 0 3vh 2vh;
+    align-items: center;    
+    
+}
+
+@media (max-width: 576px){
+    #carouselExampleFade {    
+        width: 60%;
+        align-items: center;        
+    }
+}
+
+video{
+    width: 100%;
+}
