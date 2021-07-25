@@ -38,11 +38,6 @@ h2 {
 }
 
 .hahaha {
-    width: 100%; 
-
-}
-
-.video {
     background:  url(/img/havith200.gif) no-repeat center center;
     background-size: contain;
     height: 100vh;
