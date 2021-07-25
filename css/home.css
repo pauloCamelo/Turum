@@ -17,7 +17,7 @@ div.carousel-inner {
 body {
   background-color: black;
   font-family: "Montserrat", sans-serif;
-  color: azure;
+  color: #f7f7f7;
 }
 
 #carouselExampleIndicators {
@@ -29,4 +29,17 @@ div#imagens {
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 10;
+}
+.efeito-prod {
+  width: 20em;
+  transition: all 0.5s ease-in-out;
+}
+
+.efeito-prod:hover {
+  transform: scale(1.03);
+}
+
+.tamanho-row {
+  width: 80%;
+  padding: 30px 0;
 }
