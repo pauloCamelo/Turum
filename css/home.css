@@ -9,7 +9,6 @@
   margin-top: 0;
 }
 
-
 #barra {
   box-shadow: -8px 0 0 -6px azure;
 }
@@ -31,12 +30,18 @@ body {
 
 #carouselExampleIndicators {
   width: 100%;
+  height: 90%;
+}
+#carouselExampleIndicators img {
+  width: 100%;
+  height: 100vh;
   object-fit: cover;
 }
 
 #div-imagens {
   padding: 10;
   margin: 10px 0;
+  object-fit: cover;
 }
 
 .efeito-prod {
@@ -58,22 +63,39 @@ body {
   height: 100%;
   box-shadow: 2px 2px 5px 3px #21212194;
   margin-bottom: 50px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .hahaha {
-    background:  url(https://bit.ly/3eRNZK7) no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
+  background: url(https://bit.ly/2UEMWXn) no-repeat center center fixed;
+  background-size: cover;
+  height: 60vh;
 }
-
 
 #btn-gif {
   margin: 0 2em;
-  padding: 2em 4em;
+  padding: 1.5em 3em;
   font-size: 1.3rem;
-  background-color: #6627EC;
+  background-color: #6627ec;
   border: none;
+  transition: all 0.5s ease-in-out;
+}
+
+#btn-gif:hover {
+  color: #000 !important;
+  background-color: #a378ff;
+}
+
+#btn-gif:before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  z-index: -1;
+  color: #6627ec !important;
+  background: #9262fa;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 footer {
@@ -81,27 +103,24 @@ footer {
   color: white;
 }
 
-#links p, a {
+#links p,
+a {
   margin-bottom: 2px;
-  color: #6627EC;
+  color: #6627ec;
   text-decoration: none;
 }
 
-
-@media (max-width: 560px)
-{
-  #btn-gif
-   {
-    font-size: 1.0rem;
+@media (max-width: 560px) {
+  #btn-gif {
+    font-size: 1rem;
     padding: 2em 2em;
-   }
+  }
 }
 
-@media (max-width: 360px)
-{
-  #btn-gif
-   {
+@media (max-width: 360px) {
+  #btn-gif {
     font-size: 1rem;
     padding: 1em 1em;
-   }
+  }
 }
+

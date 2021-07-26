@@ -1,69 +1,71 @@
-.produtos{
-    margin-top: 78px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.produtos {
+  margin-top: 78px;
 }
 
-.row-principal-produto{
-    padding: 10px;
-    margin-bottom: 20px;
+.row-principal-produto {
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
-.col-principal-produto{
-    margin: auto;
+.col-principal-produto {
+  margin: auto;
 }
 
-.row-interna-produto{
-    background: white;
-    color: slategray;
+.row-interna-produto {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15em;
+  background: white;
+  color:slategray;
 }
 
-.col-imagem{
-    padding: 30px;
+.col-imagem {
+  padding: 30px;
 }
 
-.imagem-produto{
-    width: 100%;
+.imagem-produto {
+  width: 100%;
 }
 
-@media (max-width: 575px)
-{
-  .imagem-produto
-   {
-        width: 50%;
-   }
-   .col-imagem{
-       text-align: center;
-   }
-}
-
-.col-descricao{
-    padding: 30px;
-}
-
-.nome-produto{
+@media (max-width: 575px) {
+  .imagem-produto {
+    width: 50%;
+  }
+  .col-imagem {
     text-align: center;
-    font-size: clamp(1em, 0.25em + 3vw, 1.75em);
+  }
 }
 
-.descricao-produto{
-    margin: 60px 0 20px 0;
-    font-size: clamp(0.6em, 0.6em + 1vw, 0.9em);
+.col-descricao {
+  padding: 30px;
 }
 
-.div-botao-produto{
-    text-align: right;
-    padding-bottom: 10px;
+.nome-produto {
+  text-align: center;
+  font-size: clamp(1em, 0.25em + 3vw, 1.75em);
 }
 
-.botao-produto{
-    background-color: #6627EC;
-    color: white;
-    text-decoration: none;
-    padding: 8px 20px 8px 20px;
-    border-radius: 5px;
+.descricao-produto {
+  margin: 60px 0 20px 0;
+  font-size: clamp(0.6em, 0.6em + 1vw, 0.9em);
 }
 
-.botao-produto:hover{
-    background-color: #5923cf;
-    color: white;
+.div-botao-produto {
+  text-align: right;
+  padding-bottom: 10px;
 }
 
+.botao-produto {
+  background-color: #6627ec;
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+  
+.botao-produto:hover {
+      color:white !important;
+      background-color: #9262fa;
+  }
