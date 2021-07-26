@@ -8,8 +8,12 @@ body {
 
 #navbar {
     background-color: #212121;
-  }
-
+}
+  
+  #barra {
+    box-shadow: -8px 0 0 -6px azure;
+}
+  
 #carouselExampleFade {    
     width: 30%;
     margin: 5vh;
@@ -41,6 +45,18 @@ h2 {
     box-shadow: 10px 10px 0px 0px #212121;
     margin-bottom: 50px;    
 }
+
+footer {
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+  
+#links p, a {
+    margin-bottom: 2px;
+    color: #6627EC;
+    text-decoration: none;
+}
+
 
 @media (max-width: 576px){
     #carouselExampleFade {    
