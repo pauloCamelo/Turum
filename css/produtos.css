@@ -52,11 +52,14 @@
 
 .botao-produto{
     background-color: #6627EC;
-    border-color: #6627EC;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
 }
 
 .botao-produto:hover{
-    background-color: #3b158b;
-    border-color: #3b158b;
+    background-color: #5923cf;
+    color: white;
 }
 
