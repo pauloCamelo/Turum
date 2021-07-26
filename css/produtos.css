@@ -41,12 +41,25 @@
 }
 
 .descricao-produto{
-    margin: 20px 0;
+    margin: 60px 0 20px 0;
     font-size: clamp(0.6em, 0.6em + 1vw, 0.9em);
 }
 
 .div-botao-produto{
     text-align: right;
     padding-bottom: 10px;
+}
+
+.botao-produto{
+    background-color: #6627EC;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
+
+.botao-produto:hover{
+    background-color: #5923cf;
+    color: white;
 }
 
