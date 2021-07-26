@@ -4,6 +4,12 @@
   background-color: #212121;
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+
 #barra {
   box-shadow: -8px 0 0 -6px azure;
 }
@@ -57,15 +63,15 @@ body {
 
 .hahaha {
 
-    background:  url(/img/imagem\ parallax.jpg) no-repeat center center fixed; 
+    background:  url(/img/imagem\ parallax.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
 
 
 #btn-gif {
-  width: 20em;
-  height: 5em;
+  margin: 0 2em;
+  padding: 2em 4em;
   font-size: 1.3rem;
   background-color: #6627EC;
   border: none;
@@ -80,4 +86,23 @@ footer {
   margin-bottom: 2px;
   color: #6627EC;
   text-decoration: none;
+}
+
+
+@media (max-width: 560px)
+{
+  #btn-gif
+   {
+    font-size: 1.0rem;
+    padding: 2em 2em;
+   }
+}
+
+@media (max-width: 360px)
+{
+  #btn-gif
+   {
+    font-size: 1rem;
+    padding: 1em 1em;
+   }
 }
