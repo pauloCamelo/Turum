@@ -10,11 +10,15 @@
 
 div.carousel-inner {
   /* max-height: 40rem; */
-  height: 95vh;
+  height: 100%;
+}
+
+h1 {
+  font-size: clamp(1em, 0.6em + 1vw, 0.9em);
 }
 
 body {
-  background-color: #212121;
+  background-color: white;
   font-family: 'Poppins', sans-serif;
   color: #fff;
 }
@@ -51,7 +55,7 @@ body {
 
 .hahaha {
 
-    background:  url(/img/videoprincipal.gif) no-repeat center center fixed; 
+    background:  url(/img/imagem\ parallax.jpg) no-repeat center center fixed; 
     background-size: cover;
     height: 100vh;
 }
@@ -62,4 +66,9 @@ body {
   height: 50px;
   background-color: #6627EC;
   border: none;
+}
+
+footer {
+  background-color: rgb(21, 21, 21);
+  color: white;
 }

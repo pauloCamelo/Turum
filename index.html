@@ -14,15 +14,13 @@
 
 <body>
   <header>
+    <div class="fixed-top">
     <nav id="navbar" class="navbar navbar-expand-md navbar-dark sticky-top">
       <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
               <img src="./img/Logo Branco Transparente_1.png" alt="Turum Logo" width="40" height="50">
               <img src="./img/Logo escrito transparente branco.png" alt="Turum Logo" width="80" height="40">
             </a>
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
         <div class="collapse navbar-collapse justify-content-start" id="navbarCollapse">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -48,6 +46,7 @@
         </div>
       </div>
     </nav>
+  </div>
   </header>
   
   <main>
@@ -59,22 +58,29 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+      
       <div class="carousel-inner">
         <div class="carousel-item active" >
-          <a href="#"> <!-- falta adicionar o link par ao teclado -->
+          <a href="./produtos/teclado.html">
           <img src="https://bit.ly/3x4ean6" class="d-block w-100" alt="...">
         </a>
+        <div class="carousel-caption d-block d-md-flex textcarrossel">
+        <div class="col-6">
+          <h1>Trabalhamos com acessórios de alta qualidade para Smartphone, Informática, Automação Comercial e produtos voltado ao público gamer.
+          </h1>
         </div>
-        <div class="carousel-item">
+        </div>
+        </div>
+        <!-- <div class="carousel-item">
           <a href="./produtos.html">
           <img src="https://bit.ly/2UK55D2" class="d-block w-100" alt="...">
         </a>
         </div>
         <div class="carousel-item">
-          <a href="#"> <!-- falta adicionar o link par ao headset -->
+          <a href="./produtos/headset.html">
           <img src="https://bit.ly/2Wj6ZLp" class="d-block w-100" alt="...">
         </a>
-        </div>
+        </div> -->
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -84,7 +90,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-  </div>
+    </div>
 
     <div class=" hahaha d-flex justify-content-center align-items-center">
      <button id="btn-gif" class="btn btn-primary">Conheça nossos produtos</button>
@@ -124,20 +130,19 @@
         </div>
     </div>
   </main>
+
 <!-- Footer -->
-<footer id="footer" class="text-center text-lg-start bg-light text-muted">
+<footer id="footer" class="text-center text-lg-start text-white">
   <!-- Section: Social media -->
   <section
     class="d-flex  justify-content-lg-between p-4 border-bottom"
   >
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Você pode nos encontrar nas redes:</span>
-    </div>
+    <div class="me-5 p-1 d-block d-lg-block">
+      <span>Você pode nos encontrar nas redes: &nbsp</span>
     <!-- Left -->
 
     <!-- Right -->
-    <div>
       <a href="" class="me-4 text-reset">
         <i class="fa fa-facebook-official"></i></a>
       <a href="" class="me-4 text-reset">
@@ -149,6 +154,7 @@
       <a href="" class="me-4 text-reset">
         <i class="fa fa-github-square"></i></a>
     </div>
+
     <!-- Right -->
   </section>
   <!-- Section: Social media -->
@@ -193,7 +199,7 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  <div class="text-center p-1" style="background-color: rgba(255, 255, 255, 0.219);">
     © 2021 Copyright:
   </div>
   <!-- Copyright -->
